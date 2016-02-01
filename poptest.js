@@ -1,5 +1,3 @@
-//now, best js
-
 function notifyMe() {
   // ブラウザが通知をサポートしているか確認する
   if (!("Notification" in window)) {
@@ -30,7 +28,7 @@ function notifyMe() {
       }
     });
   }
-  setTimeout('notifyMe();',1000);
+  setTimeout('notifyMe();',60000);//1分ごと
 }
 /*
   var dd = new Date();    // 開始時間取得
@@ -38,4 +36,4 @@ function notifyMe() {
   gTimeStart= gTimeStart/(1000*60);
   console.log(gTimeStart);
   */
-setTimeout('notifyMe();',1000);
+setTimeout('notifyMe();',60000);

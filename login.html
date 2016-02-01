@@ -17,13 +17,14 @@ alert( url ) ;
 </head>
 
 
-
-
   <div>
-	  <h1 >ログイン</h1><br>
-    <a href="#" onclick="window.open('http://192.168.1.172/redesign/humidity/home/', 'mywindow5', 'width=400, height=300, menubar=no, toolbar=no, scrollbars=yes');">新規作成</a>
-    <a href="#" onclick="window.open('http://192.168.1.172/redesign/humidity/hello/', 'mywindow5', 'width=400, height=300, menubar=no, toolbar=no, scrollbars=yes');">ログイン</a>
-
+	  <h1 >ログイン</h1>
+    <form method="post" action="192.168.1.172/redesign/registration">
+    名前：<input type="text" name="Name"><br>
+    パスワード：<input type="text" name="Pass"><br>
+  <!--  <input type="submit" value="Enter" onClick="location.href='http://www.google.co.jp/'">-->
+    <input type=button value="Enter" onclick='this.form.submit();window.location="file:///C:/Users/aki/app/login.html";'>
+    </form>
 	  <table id="tbl">
 		<tbody>
 		  <tr>
