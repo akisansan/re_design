@@ -1,0 +1,83 @@
+
+body{
+	margin: 0;
+	padding: 0;
+
+	background: url('../img/qqimage.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.wrapper{
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+
+}
+.form h1{
+	color: #444;
+}
+
+.header{
+	background:rgba(255,192,32,0.5);
+	height: 90px;
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+}
+a{
+	display: block;
+	width: 15%;
+	text-decoration:rgba(255,79,51,1); 
+	color:white;
+	text-decoration: none;
+	overflow: hidden;
+	font-size: 120%;
+	-webkit-transition:all .3s;
+	transition:all .3s;
+}
+
+.form{
+	margin: 0 auto;
+	margin-top: 70px;
+	width: 45%;
+	padding: 5%;
+	min-height: 350px;
+	border-radius: 7px;
+	background:rgba(255,255,255,0.6);
+}
+input[type="text"],input[type="password"]{
+	width: 50%;
+	margin-bottom: 40px;
+	min-height:35px;
+	font-size: 130%; 
+	outline: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border:2px solid #ccc;
+	-webkit-transition:all .3s;
+	transition:all .3s;
+}
+input:focus {
+    border:solid 2px #EEA34A;
+}
+input[type="submit"]{
+	display: block;
+	border: 0px;
+	width: 45%;
+	margin: 0 auto;
+	padding: 3% 7%;
+	border-radius: 5px;
+	font-size: 100%;
+
+	-webkit-transition:all .3s;
+	transition:all .3s;
+
+	background:rgba(255,192,32,1);
+	color: white;
+	cursor: pointer;
+}
+input[type="submit"]:hover{
+	background:rgba(255,79,51,1);
+}
