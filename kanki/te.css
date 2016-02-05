@@ -1,0 +1,12 @@
+svg {
+  width:100%;
+}
+
+@media screen and (max-width:700px){
+  text {
+    font-size:8px;
+  }
+  .line {
+    stroke-width:1px;
+  }
+}
